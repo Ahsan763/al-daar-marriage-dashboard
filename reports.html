@@ -1,0 +1,1143 @@
+<!doctype html>
+<html dir="rtl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reports</title>
+	<!-- Favicons -->
+	<link href="assets/images/favicone.png" rel="icon">
+	<!-- font aweasome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+	<!-- bootstrap 5.2.2 -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<!-- form select -->
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="assets/css/aside.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/media_queries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link href="assets/css/dark.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="app">
+		<a href="#" class="botm-to-top-link">
+			<i class="fa-solid fa-arrow-up bootm-to-top-icn bootm-to-top-icn3"></i>
+		</a>
+		<div class="dashboard-wrapper flex">
+			<aside class="aside">
+				<button type="button" class="asideClose">
+					<i class="fa-sharp fa-solid fa-xmark"></i>
+				</button>
+				<a href="/" class="logo_wrapper">
+					<div class="logo_holder">
+						<img src="assets/images/logo.svg" alt="skilled logo" class="logo_img dark-none" />
+						<img src="assets/images/logo_white.svg" alt="skilled logo" class="logo_img d-none dark-show" />
+					</div>
+					<div class="aside__webname flex-a">
+						<span>
+							الدار لخدمات الزواج
+						</span>
+					</div>
+				</a>
+
+				<div class="aside_container">
+					<a href="/" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-house asidbox_icons_icon"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								الرئيسية
+							</p>
+						</div>
+					</a>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-bag-shopping"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								الطلبات
+							</div>
+
+							<i class="fa-sharp fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="all-orders.html" class="asidbox_Link2">
+									عرض الكل
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									إضافة طلب جديد
+								</a>
+							</li>
+							<li>
+								<a href="retest-request.html" class="asidbox_Link2">
+									طلبات إعادة الإختبار
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a href="reports.html" class="asidbox active">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-chart-simple"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								التقارير
+							</p>
+						</div>
+					</a>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gear"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								الإعدادات
+							</div>
+							<i class="fa-sharp fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="about-us.html" class="asidbox_Link2">
+									عن المنصة
+								</a>
+							</li>
+							<li>
+								<a href="our-value.html" class="asidbox_Link2">
+									قيمنا
+								</a>
+							</li>
+							<li>
+								<a href="management-set.html" class="asidbox_Link2">
+									الإجراءات الإدارية
+								</a>
+							</li>
+							<li>
+								<a href="contact-us.html" class="asidbox_Link2">
+									إتصل بنا
+								</a>
+							</li>
+							<li>
+								<a href="certified.html" class="asidbox_Link2">
+									معتمد من
+								</a>
+							</li>
+							<li>
+								<a href="f-and-q.html" class="asidbox_Link2">
+									الأسئلة الشائعة
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a href="employee.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-briefcase"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								الموظفين
+							</p>
+						</div>
+					</a>
+					<a href="users.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-users"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								المستخدمين
+							</p>
+						</div>
+					</a>
+					<a href="posts.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-regular fa-newspaper"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								المنشورات والمرئيات
+							</p>
+						</div>
+					</a>
+					<a href="sliders.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-image"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								الصور المتحركة
+							</p>
+						</div>
+					</a>
+					<a href="role-and-permissions.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-shield-halved"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								الصلاحيات والأذونات
+							</p>
+						</div>
+					</a>
+					<a href="payment.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-border-all asidbox_icons_icon"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								الدفع و الإشتراكات
+							</p>
+						</div>
+					</a>
+					<a href="recent-marriages.html" class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-ring"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<p class="asidbox_Link">
+								حالات الإقتران
+							</p>
+						</div>
+					</a>
+					<div class="aside__ftr flex-i justify-between">
+						<button class="aside__ftr_logout flex-a">
+							<i class="fa-solid fa-arrow-right-from-bracket"></i>
+						</button>
+						<div class="aside__ftrbox flex-i gap-3">
+							<p class="aside__ftrbox-p">الساعة الآن</p>
+							<div class="aside__ftrbox-time flex-i justify-between">
+								<i class="fa-regular fa-clock"></i>
+								<span>8:15 PM</span>
+							</div>
+						</div>
+					</div>
+					<div class="madeby flex items-center justify-center text-center">
+						<p class="madeby_text">Made <span class="madeby_text2 pb-2"> by </span>Skilled Tech</p>
+					</div>
+				</div>
+			</aside>
+			<main class="main">
+				<div class="dashboard_header">
+					<div class="navbar">
+						<div class="flex-i thm-control-wrpr">
+							<button class="sidebar_btn">
+								<i class="fa-solid fa-bars sidebar_btn_icon"></i>
+							</button>
+							<div class="flex-i thmwrpr">
+								<div class="theme flex-a">
+									<div class="theme-light-outer flex-i  light-btn">
+										<div class="theme-light flex-a">
+											<i class="fa-solid fa-lightbulb"></i>
+										</div>
+										<p class="theme-p">
+											وضع اليوم
+										</p>
+									</div>
+									<div class="theme-dark-outer flex-i  dark-btn">
+										<div class="theme-dark flex-a">
+											<i class="fa-regular fa-lightbulb"></i>
+										</div>
+										<p class="theme-p">
+											الوضع الليلي
+										</p>
+
+									</div>
+								</div>
+								<div class="language_toggle">
+									<div class="language_toggle_ar d-flex">
+										<i class="fa-solid fa-earth-americas"></i>
+										<p class="language_toggle-p">عربي</p>
+									</div>
+									<div class="language_toggle_en d-flex">
+										<i class="fa-solid fa-earth-americas"></i>
+										<p class="language_toggle-p">English</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="navbar_search_box">
+							<input type="text" placeholder="Search" class="navbar_search_box_input" />
+							<button type="submit" class="navbar_search_box_btn">
+								<i class="fa fa-search navbar_search_box_btn_icone"></i>
+							</button>
+						</div>
+						<div class="flex-i prf-noti-wrpr">
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box-ab"></div>
+								<i class="fa-sharp fa-solid fa-bell bell1"></i>
+								<i class="fa-solid fa-bell bell2"></i>
+
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="notibox__hdr flex-i justify-between">
+										<p class="notibox__s1b1_t">الإشعارات</p>
+										<div class="markread_btn flex-a">
+											تحديد كمقروءة
+										</div>
+									</div>
+									<div class="notibox flex justify-between">
+										<div class="notibox__s1">
+											<img src="assets/images/team2.jpg" alt="" class="notibox__s1_img">
+										</div>
+										<dov class="notibox__s2">
+											<h4 class="notibox__s2_h">تم إنضمام مستخدم جديد للمنصة</h4>
+											<div class="notibox__s2_wrpr flex-i gap-2">
+												<i class="fa-solid fa-clock-three icn"></i>
+												<p class="">منذ ساعة</p>
+											</div>
+										</dov>
+										<div class="notibox__s3">
+											<input type="checkbox" class="checkbox" name="option3" value="option3">
+										</div>
+									</div>
+									<div class="notibox flex justify-between">
+										<div class="notibox__s1">
+											<i class="fa-solid fa-bell"></i>
+										</div>
+										<dov class="notibox__s2">
+											<h4 class="notibox__s2_h">تم إنضمام مستخدم جديد للمنصة</h4>
+											<div class="notibox__s2_wrpr flex-i gap-2">
+												<i class="fa-solid fa-clock-three icn"></i>
+												<p class="">منذ ساعة</p>
+											</div>
+										</dov>
+										<div class="notibox__s3">
+											<input type="checkbox" class="checkbox" name="option3" value="option3">
+										</div>
+									</div>
+									<div class="notibox flex justify-between">
+										<div class="notibox__s1">
+											<img src="assets/images/team2.jpg" alt="" class="notibox__s1_img">
+										</div>
+										<dov class="notibox__s2">
+											<h4 class="notibox__s2_h">تم إنضمام مستخدم جديد للمنصة</h4>
+											<div class="notibox__s2_wrpr flex-i gap-2">
+												<i class="fa-solid fa-clock-three icn"></i>
+												<p class="">منذ ساعة</p>
+											</div>
+										</dov>
+										<div class="notibox__s3">
+											<input type="checkbox" class="checkbox" name="option3" value="option3">
+										</div>
+									</div>
+									<div class="notibox flex justify-between">
+										<div class="notibox__s1">
+											<i class="fa-solid fa-bell"></i>
+										</div>
+										<dov class="notibox__s2">
+											<h4 class="notibox__s2_h">تم إنضمام مستخدم جديد للمنصة</h4>
+											<div class="notibox__s2_wrpr flex-i gap-2">
+												<i class="fa-solid fa-clock-three icn"></i>
+												<p class="">منذ ساعة</p>
+											</div>
+										</dov>
+										<div class="notibox__s3">
+											<input type="checkbox" class="checkbox" name="option3" value="option3">
+										</div>
+									</div>
+									<div class="notiftr flex-a gap-2">
+										<input type="checkbox" class="checkbox" name="option3" value="option3" id="select-all">
+										<p class="notiftr_p">تحديد الكل</p>
+										<button class="notiftr__btn flex-a"><i class="fa-solid fa-trash-check trash"></i></button>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="dropdown">
+								<div class="nav_pf_box flex items-center dropdown-toggle" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									<div class="nav_pf_box_hol">
+										<img src="assets/images/team2.jpg" alt="" class="nav_pf_box_img" />
+									</div>
+									<div>
+										<h6 class="nav_pf_box_name">عبد الله احمد</h6>
+										<p class="nav_pf_box_name2">المدير العام</p>
+									</div>
+								</div>
+								<ul class="dropdown-menu pfDropdown" aria-labelledby="dropdownMenuLink">
+									<li class="pfDropdown_item pfDropdown-hdr">
+										<div class="pfDropdown_box gap-2 flex items-center">
+											<img src="assets/images/team2.jpg" alt="" class="pfDropdown_box-img">
+											<h6 class="pfDropdown_text2">عبد الله احمد </h6>
+										</div>
+									</li>
+									<li class="pfDropdown_item">
+										<a href="profile.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-user"></i>
+											</div>
+											<h6 class="pfDropdown_text">الملف الشخصي</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item">
+										<a href="profile.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-gear"></i>
+											</div>
+											<h6 class="pfDropdown_text">تغيير كلمة المرور</h6>
+										</a>
+									</li>
+
+									<li class="pfDropdown_item pfDropdown_item-ftr">
+										<a href="login.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket"></i>
+											</div>
+											<h6 class="pfDropdown_text pfDropdown_text2">تسجيل خروج</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+					<!-- nav1 end -->
+					<div class="bottom_navbar flex-i justify-between">
+						<p class="bottom_navbar_left_page_name">الرئيسية</p>
+						<div class="bottom_navbar_right">
+							<a href="#" class="websitelink flex-a">
+								<i class="fa-solid fa-earth-americas"></i>
+								عرض الموقع
+							</a>
+							<div class="bottom_navbar_datebox flex items-center gap-2">
+								<h6 class="bottom_navbar_datebox_date">28, June</h6>
+								<i class="fa-solid fa-calendar-days bottom_navbar_datebox_icon"></i>
+							</div>
+						</div>
+					</div>
+					<!-- nav2 end -->
+					<div class="navbar_search_box_mobile">
+						<input type="text" placeholder="search" class="navbar_search_box_mobile_input" />
+					</div>
+					<!-- search box mobile end -->
+				</div>
+				<!-- header end -->
+				<div class="main_body">
+					<div class="container-fluid">
+						<div class="card">
+							<div class="fboxerpr flex flex-wrap">
+								<div class="fbox">
+									<div class="fbox_mini">
+										<i class="fa-solid fa-users"></i>
+									</div>
+									<div class="fbox__content">
+										<h2 class="fbox__content-h">15.41K</h2>
+										<p class="fbox__content-p">مستخدم بالمنصة</p>
+									</div>
+									<div class="dashboard_box_col2 flex items-center">
+										<i class="fa-solid fa-ellipsis-vertical icon ellipsis_circle_icon drp_btn">
+											<ul class="dashboard_box_dropdown drp_box">
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-expand"></i>
+														عرض الكل
+													</a>
+												</li>
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-plus"></i>
+														إضافة جديد
+													</a>
+												</li>
+											</ul>
+										</i>
+									</div>
+								</div>
+								<div class="fbox">
+									<div class="fbox_mini">
+										<i class="fa-solid fa-folder"></i>
+									</div>
+									<div class="fbox__content">
+										<h2 class="fbox__content-h">120</h2>
+										<p class="fbox__content-p">موظف</p>
+									</div>
+									<div class="dashboard_box_col2 flex items-center">
+										<i class="fa-solid fa-ellipsis-vertical icon ellipsis_circle_icon drp_btn">
+											<ul class="dashboard_box_dropdown drp_box">
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-expand"></i>
+														عرض الكل
+													</a>
+												</li>
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-plus"></i>
+														إضافة جديد
+													</a>
+												</li>
+											</ul>
+										</i>
+									</div>
+								</div>
+								<div class="fbox">
+									<div class="fbox_mini">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+									<div class="fbox__content">
+										<h2 class="fbox__content-h">1.20 K</h2>
+										<p class="fbox__content-p">كل الطلبات</p>
+									</div>
+									<div class="dashboard_box_col2 flex items-center">
+										<i class="fa-solid fa-ellipsis-vertical icon ellipsis_circle_icon drp_btn">
+											<ul class="dashboard_box_dropdown drp_box">
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-expand"></i>
+														عرض الكل
+													</a>
+												</li>
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-plus"></i>
+														إضافة جديد
+													</a>
+												</li>
+											</ul>
+										</i>
+									</div>
+								</div>
+								<div class="fbox">
+									<div class="fbox_mini">
+										<i class="fa-solid fa-clipboard"></i>
+									</div>
+									<div class="fbox__content">
+										<h2 class="fbox__content-h">188</h2>
+										<p class="fbox__content-p">من المنشورات</p>
+									</div>
+									<div class="dashboard_box_col2 flex items-center">
+										<i class="fa-solid fa-ellipsis-vertical icon ellipsis_circle_icon drp_btn">
+											<ul class="dashboard_box_dropdown drp_box">
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-expand"></i>
+														عرض الكل
+													</a>
+												</li>
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-plus"></i>
+														إضافة جديد
+													</a>
+												</li>
+											</ul>
+										</i>
+									</div>
+								</div>
+								<div class="fbox">
+									<div class="fbox_mini">
+										<i class="fa-solid fa-ring"></i>
+									</div>
+									<div class="fbox__content">
+										<h2 class="fbox__content-h">1.20 K</h2>
+										<p class="fbox__content-p">حالة إقتران </p>
+									</div>
+									<div class="dashboard_box_col2 flex items-center">
+										<i class="fa-solid fa-ellipsis-vertical icon ellipsis_circle_icon drp_btn">
+											<ul class="dashboard_box_dropdown drp_box">
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-expand"></i>
+														عرض الكل
+													</a>
+												</li>
+												<li class="drp_box_item">
+													<a href="#" class="drp_box_link">
+														<i class="fa-solid fa-plus"></i>
+														إضافة جديد
+													</a>
+												</li>
+											</ul>
+										</i>
+									</div>
+								</div>
+							</div>
+							<div class="reportscard flex flex-wrap">
+								<div class="reportsBox">
+									<div class="hordrCrd__hdr flex-i justify-between">
+										<p class="hordrCrd__hdr_p">الطلبات الجديدة</p>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="horderaccordian flex-i justify-between flex-wrap">
+										<div class="horderaccordianbox flex-i justify-between flex-wrap">
+											<div class="subcrdBox__mini">
+												<img src="assets/images/person1.png" alt="" class="subcrdBox__mini_img">
+											</div>
+											<div class="subcrdBox__content2">
+												<h2 class="subcrdBox__content_h">الإمارات العربية المتحدة</h2>
+												<div class="subcrdBox__contentf_wrpr flex-i">
+													<span>متزوج</span>
+													<div>-</div>
+													<span>33 سنة</span>
+												</div>
+											</div>
+											<div class="horderaccordian__btn flex-a">
+												<i class="fa-solid fa-circle-plus"></i>
+												<i class="fa-solid fa-circle-minus"></i>
+											</div>
+										</div>
+										<div class="horderaccordian__box">
+											<div class="reportsBox__row flex justify-between">
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الميلاد</p>
+													<div class="reportsBox__minidiv flex-a r-50">20%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الشخصية</p>
+													<div class="reportsBox__minidiv flex-a r-50">17%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الطلب</p>
+													<div class="reportsBox__minidiv flex-a r-50">8%</div>
+												</div>
+											</div>
+											<div class="horderaccordian__row">
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوظيفة :</p>
+													<p class="horderaccordian__min-p2">خاص</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">العرق :</p>
+													<p class="horderaccordian__min-p2">أسمر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">اللون :</p>
+													<p class="horderaccordian__min-p2">قمحي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">التعليم :</p>
+													<p class="horderaccordian__min-p2">جامعي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">المدينة :</p>
+													<p class="horderaccordian__min-p2">دبي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الجنس :</p>
+													<p class="horderaccordian__min-p2">ذكر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الأطفال :</p>
+													<p class="horderaccordian__min-p2">2</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوزن :</p>
+													<p class="horderaccordian__min-p2">85 kg</p>
+												</div>
+											</div>
+											<div class="horderaccordian__row2 flex-i justify-between">
+												<div class="ordaccbox flex-i gap-2">
+													<p class="ordaccbox_p">بتاريخ </p>
+													<div class="ordaccbox__btn flex-a">
+														5-4-2023
+														<i class="fa-solid fa-calendar-days"></i>
+													</div>
+												</div>
+												<div class="ordaccbox2 flex-i gap-1">
+													<span>1666863550195</span>
+													<i class="fa-solid fa-lock-hashtag"></i>
+												</div>
+												<div class="ordaccbox3 flex-i gap-1">
+													<span>user344@gmail.com</span>
+													<i class="fa-solid fa-envelope"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="horderaccordian flex-i justify-between flex-wrap">
+										<div class="horderaccordianbox flex-i justify-between flex-wrap">
+											<div class="subcrdBox__mini">
+												<img src="assets/images/person2.png" alt="" class="subcrdBox__mini_img">
+											</div>
+											<div class="subcrdBox__content2">
+												<h2 class="subcrdBox__content_h">الإمارات العربية المتحدة</h2>
+												<div class="subcrdBox__contentf_wrpr flex-i">
+													<span>متزوج</span>
+													<div>-</div>
+													<span>33 سنة</span>
+												</div>
+											</div>
+											<div class="horderaccordian__btn flex-a">
+												<i class="fa-solid fa-circle-plus"></i>
+												<i class="fa-solid fa-circle-minus"></i>
+											</div>
+										</div>
+										<div class="horderaccordian__box">
+											<div class="reportsBox__row flex justify-between">
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الميلاد</p>
+													<div class="reportsBox__minidiv flex-a r-50">20%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الشخصية</p>
+													<div class="reportsBox__minidiv flex-a r-50">17%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الطلب</p>
+													<div class="reportsBox__minidiv flex-a r-50">8%</div>
+												</div>
+											</div>
+											<div class="horderaccordian__row">
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوظيفة :</p>
+													<p class="horderaccordian__min-p2">خاص</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">العرق :</p>
+													<p class="horderaccordian__min-p2">أسمر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">اللون :</p>
+													<p class="horderaccordian__min-p2">قمحي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">التعليم :</p>
+													<p class="horderaccordian__min-p2">جامعي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">المدينة :</p>
+													<p class="horderaccordian__min-p2">دبي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الجنس :</p>
+													<p class="horderaccordian__min-p2">ذكر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الأطفال :</p>
+													<p class="horderaccordian__min-p2">2</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوزن :</p>
+													<p class="horderaccordian__min-p2">85 kg</p>
+												</div>
+											</div>
+											<div class="horderaccordian__row2 flex-i justify-between">
+												<div class="ordaccbox flex-i gap-2">
+													<p class="ordaccbox_p">بتاريخ </p>
+													<div class="ordaccbox__btn flex-a">
+														5-4-2023
+														<i class="fa-solid fa-calendar-days"></i>
+													</div>
+												</div>
+												<div class="ordaccbox2 flex-i gap-1">
+													<span>1666863550195</span>
+													<i class="fa-solid fa-lock-hashtag"></i>
+												</div>
+												<div class="ordaccbox3 flex-i gap-1">
+													<span>user344@gmail.com</span>
+													<i class="fa-solid fa-envelope"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="horderaccordian flex-i justify-between flex-wrap">
+										<div class="horderaccordianbox flex-i justify-between flex-wrap">
+											<div class="subcrdBox__mini">
+												<img src="assets/images/person3.png" alt="" class="subcrdBox__mini_img">
+											</div>
+											<div class="subcrdBox__content2">
+												<h2 class="subcrdBox__content_h">الإمارات العربية المتحدة</h2>
+												<div class="subcrdBox__contentf_wrpr flex-i">
+													<span>متزوج</span>
+													<div>-</div>
+													<span>33 سنة</span>
+												</div>
+											</div>
+											<div class="horderaccordian__btn flex-a">
+												<i class="fa-solid fa-circle-plus"></i>
+												<i class="fa-solid fa-circle-minus"></i>
+											</div>
+										</div>
+										<div class="horderaccordian__box">
+											<div class="reportsBox__row flex justify-between">
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الميلاد</p>
+													<div class="reportsBox__minidiv flex-a r-50">20%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الشخصية</p>
+													<div class="reportsBox__minidiv flex-a r-50">17%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الطلب</p>
+													<div class="reportsBox__minidiv flex-a r-50">8%</div>
+												</div>
+											</div>
+											<div class="horderaccordian__row">
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوظيفة :</p>
+													<p class="horderaccordian__min-p2">خاص</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">العرق :</p>
+													<p class="horderaccordian__min-p2">أسمر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">اللون :</p>
+													<p class="horderaccordian__min-p2">قمحي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">التعليم :</p>
+													<p class="horderaccordian__min-p2">جامعي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">المدينة :</p>
+													<p class="horderaccordian__min-p2">دبي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الجنس :</p>
+													<p class="horderaccordian__min-p2">ذكر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الأطفال :</p>
+													<p class="horderaccordian__min-p2">2</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوزن :</p>
+													<p class="horderaccordian__min-p2">85 kg</p>
+												</div>
+											</div>
+											<div class="horderaccordian__row2 flex-i justify-between">
+												<div class="ordaccbox flex-i gap-2">
+													<p class="ordaccbox_p">بتاريخ </p>
+													<div class="ordaccbox__btn flex-a">
+														5-4-2023
+														<i class="fa-solid fa-calendar-days"></i>
+													</div>
+												</div>
+												<div class="ordaccbox2 flex-i gap-1">
+													<span>1666863550195</span>
+													<i class="fa-solid fa-lock-hashtag"></i>
+												</div>
+												<div class="ordaccbox3 flex-i gap-1">
+													<span>user344@gmail.com</span>
+													<i class="fa-solid fa-envelope"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="horderaccordian flex-i justify-between flex-wrap">
+										<div class="horderaccordianbox flex-i justify-between flex-wrap">
+											<div class="subcrdBox__mini">
+												<img src="assets/images/person1.png" alt="" class="subcrdBox__mini_img">
+											</div>
+											<div class="subcrdBox__content2">
+												<h2 class="subcrdBox__content_h">الإمارات العربية المتحدة</h2>
+												<div class="subcrdBox__contentf_wrpr flex-i">
+													<span>متزوج</span>
+													<div>-</div>
+													<span>33 سنة</span>
+												</div>
+											</div>
+											<div class="horderaccordian__btn flex-a">
+												<i class="fa-solid fa-circle-plus"></i>
+												<i class="fa-solid fa-circle-minus"></i>
+											</div>
+										</div>
+										<div class="horderaccordian__box">
+											<div class="reportsBox__row flex justify-between">
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الميلاد</p>
+													<div class="reportsBox__minidiv flex-a r-50">20%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الشخصية</p>
+													<div class="reportsBox__minidiv flex-a r-50">17%</div>
+												</div>
+												<div class="reportsBox__mini">
+													<p class="reportsBox__mini_p">توافق الطلب</p>
+													<div class="reportsBox__minidiv flex-a r-50">8%</div>
+												</div>
+											</div>
+											<div class="horderaccordian__row">
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوظيفة :</p>
+													<p class="horderaccordian__min-p2">خاص</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">العرق :</p>
+													<p class="horderaccordian__min-p2">أسمر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">اللون :</p>
+													<p class="horderaccordian__min-p2">قمحي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">التعليم :</p>
+													<p class="horderaccordian__min-p2">جامعي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">المدينة :</p>
+													<p class="horderaccordian__min-p2">دبي</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الجنس :</p>
+													<p class="horderaccordian__min-p2">ذكر</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الأطفال :</p>
+													<p class="horderaccordian__min-p2">2</p>
+												</div>
+												<div class="horderaccordian__mini">
+													<p class="horderaccordian__min-p">الوزن :</p>
+													<p class="horderaccordian__min-p2">85 kg</p>
+												</div>
+											</div>
+											<div class="horderaccordian__row2 flex-i justify-between">
+												<div class="ordaccbox flex-i gap-2">
+													<p class="ordaccbox_p">بتاريخ </p>
+													<div class="ordaccbox__btn flex-a">
+														5-4-2023
+														<i class="fa-solid fa-calendar-days"></i>
+													</div>
+												</div>
+												<div class="ordaccbox2 flex-i gap-1">
+													<span>1666863550195</span>
+													<i class="fa-solid fa-lock-hashtag"></i>
+												</div>
+												<div class="ordaccbox3 flex-i gap-1">
+													<span>user344@gmail.com</span>
+													<i class="fa-solid fa-envelope"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<a href="#" class="hordrCrd__btn hordrCrd__btn--2 flex-a">
+										عرض الكل
+									</a>
+								</div>
+								<div class="reportsBox2">
+									<div class="subcrd__hdr subcrd__hdr--2 flex-i gap-3">
+										<i class="fa-solid fa-ring"></i>
+										<p class="subcrd__hdr_p">حالة الإقتران الأخيرة</p>
+									</div>
+									<div class="reportsBox2__row flex-i justify-between">
+										<div class="reportsBox2col">
+											<img src="assets/images/person1.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+										<i class="fa-solid fa-arrow-right-arrow-left"></i>
+										<div class="reportsBox2col">
+											<img src="assets/images/person2.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+									</div>
+									<div class="reportsBox2__row flex-i justify-between">
+										<div class="reportsBox2col">
+											<img src="assets/images/person1.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+										<i class="fa-solid fa-arrow-right-arrow-left"></i>
+										<div class="reportsBox2col">
+											<img src="assets/images/person2.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+									</div>
+									<div class="reportsBox2__row flex-i justify-between">
+										<div class="reportsBox2col">
+											<img src="assets/images/person1.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+										<i class="fa-solid fa-arrow-right-arrow-left"></i>
+										<div class="reportsBox2col">
+											<img src="assets/images/person2.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+									</div>
+									<div class="reportsBox2__row flex-i justify-between">
+										<div class="reportsBox2col">
+											<img src="assets/images/person1.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+										<i class="fa-solid fa-arrow-right-arrow-left"></i>
+										<div class="reportsBox2col">
+											<img src="assets/images/person2.png" alt="" class="reportsBox2col__img">
+											<h6 class="reportsBox2col__h">محمد الهاشمي عبد الله </h6>
+										</div>
+									</div>
+									<a href="#" class="canjuwrpr__btn canjuwrpr__btn--2 flex-a">
+										عرض الكل
+									</a>
+								</div>
+								<div class="reportsBox3">
+									<div class="subcrd__hdr subcrd__hdr--2 flex-i gap-3">
+										<i class="fa-solid fa-clipboard"></i>
+										<p class="subcrd__hdr_p">المنشورات الحديثة</p>
+									</div>
+									<div class="reportsBox3__row flex-i justify-between">
+										<img src="assets/images/h-blog.png" alt="" class="reportsBox3__img">
+										<div class="reportsBox3__content">
+											<h6 class="reportsBox3__contenth6">حالات الزواج التي …</h6>
+											<div class="subcrdBox__ftr_date flex-i gap-2">
+												<span>4-13-2023</span>
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+									</div>
+									<div class="reportsBox3__row flex-i justify-between">
+										<img src="assets/images/h-blog2.png" alt="" class="reportsBox3__img">
+										<div class="reportsBox3__content">
+											<h6 class="reportsBox3__contenth6">حالات الزواج التي …</h6>
+											<div class="subcrdBox__ftr_date flex-i gap-2">
+												<span>4-13-2023</span>
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+									</div>
+									<div class="reportsBox3__row flex-i justify-between">
+										<img src="assets/images/h-blog3.png" alt="" class="reportsBox3__img">
+										<div class="reportsBox3__content">
+											<h6 class="reportsBox3__contenth6">حالات الزواج التي …</h6>
+											<div class="subcrdBox__ftr_date flex-i gap-2">
+												<span>4-13-2023</span>
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+									</div>
+									<div class="reportsBox3__row flex-i justify-between">
+										<img src="assets/images/h-blog.png" alt="" class="reportsBox3__img">
+										<div class="reportsBox3__content">
+											<h6 class="reportsBox3__contenth6">حالات الزواج التي …</h6>
+											<div class="subcrdBox__ftr_date flex-i gap-2">
+												<span>4-13-2023</span>
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+									</div>
+									<div class="reportsBox3__row flex-i justify-between">
+										<img src="assets/images/h-blog2.png" alt="" class="reportsBox3__img">
+										<div class="reportsBox3__content">
+											<h6 class="reportsBox3__contenth6">حالات الزواج التي …</h6>
+											<div class="subcrdBox__ftr_date flex-i gap-2">
+												<span>4-13-2023</span>
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+									</div>
+									<div class="reportsBox3__row flex-i justify-between">
+										<img src="assets/images/h-blog3.png" alt="" class="reportsBox3__img">
+										<div class="reportsBox3__content">
+											<h6 class="reportsBox3__contenth6">حالات الزواج التي …</h6>
+											<div class="subcrdBox__ftr_date flex-i gap-2">
+												<span>4-13-2023</span>
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+									</div>
+									<a href="#" class="canjuwrpr__btn canjuwrpr__btn--2 canjuwrpr__btn--3  flex-a">
+										عرض الكل
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	<div class="modal fade" id="delmdl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content delmdl">
+				<div class="delmdlbody">
+					<div class="delmdlhdr flex-a">
+						<div class="delmdlhdr-box">
+							<i class="fa-solid fa-trash-can"></i>
+						</div>
+					</div>
+					<p class="delmdlhdr-p">Are Sure You Want To <br>
+						Delete This ID # <span class="yellow">1</span> </p>
+				</div>
+				<div class="delmdlftr flex-i justify-content-center gap-3">
+					<button type="button" data-bs-dismiss="modal" class="delmdlftr-btn delmdlftr-btn1">Cencel</button>
+					<button type="submit" class="delmdlftr-btn delmdlftr-btn2">Yes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="dist/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+	<script src="https://unpkg.com/create-file-list"></script>
+	<script>
+		function dataFileDnD() {
+			return {
+				files: [],
+				fileDragging: null,
+				fileDropping: null,
+				humanFileSize(size) {
+					const i = Math.floor(Math.log(size) / Math.log(1024));
+					return (
+						(size / Math.pow(1024, i)).toFixed(2) * 1 +
+						" " +
+						["B", "kB", "MB", "GB", "TB"][i]
+					);
+				},
+				remove(index) {
+					let files = [...this.files];
+					files.splice(index, 1);
+
+					this.files = createFileList(files);
+				},
+				drop(e) {
+					let removed, add;
+					let files = [...this.files];
+
+					removed = files.splice(this.fileDragging, 1);
+					files.splice(this.fileDropping, 0, ...removed);
+
+					this.files = createFileList(files);
+
+					this.fileDropping = null;
+					this.fileDragging = null;
+				},
+				dragenter(e) {
+					let targetElem = e.target.closest("[draggable]");
+
+					this.fileDropping = targetElem.getAttribute("data-index");
+				},
+				dragstart(e) {
+					this.fileDragging = e.target
+						.closest("[draggable]")
+						.getAttribute("data-index");
+					e.dataTransfer.effectAllowed = "move";
+				},
+				loadFile(file) {
+					const preview = document.querySelectorAll(".preview");
+					const blobUrl = URL.createObjectURL(file);
+
+					preview.forEach(elem => {
+						elem.onload = () => {
+							URL.revokeObjectURL(elem.src); // free memory
+						};
+					});
+
+					return blobUrl;
+				},
+				addFiles(e) {
+					const files = createFileList([...this.files], [...e.target.files]);
+					this.files = files;
+					this.form.formData.files = [...files];
+				}
+			};
+		}
+	</script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
